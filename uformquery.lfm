@@ -1,0 +1,43 @@
+object FormQuery: TFormQuery
+  Left = 347
+  Height = 136
+  Top = 263
+  Width = 330
+  Caption = 'FormQuery'
+  ClientHeight = 136
+  ClientWidth = 330
+  Position = poOwnerFormCenter
+  LCLVersion = '1.3'
+  object Button1: TButton
+    Left = 24
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'Button1'
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 128
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'Button2'
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 232
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'Button3'
+    TabOrder = 2
+  end
+  object TextQuery: TStaticText
+    Left = 16
+    Height = 17
+    Top = 8
+    Width = 65
+    Caption = 'TextQuery'
+    TabOrder = 3
+  end
+end

@@ -1,0 +1,53 @@
+object FormOption: TFormOption
+  Left = 439
+  Height = 282
+  Top = 235
+  Width = 386
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsDialog
+  Caption = 'Option'
+  ClientHeight = 282
+  ClientWidth = 386
+  Position = poOwnerFormCenter
+  LCLVersion = '1.3'
+  object ValueListEditor1: TValueListEditor
+    Left = 8
+    Height = 218
+    Top = 8
+    Width = 368
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    FixedCols = 0
+    RowCount = 2
+    TabOrder = 0
+    DisplayOptions = [doAutoColResize]
+    KeyOptions = [keyEdit]
+    Strings.Strings = (
+      'CSVDelimiter=,'
+      ''
+    )
+    ColWidths = (
+      182
+      182
+    )
+  end
+  object ButtonOk: TButton
+    Left = 101
+    Height = 25
+    Top = 242
+    Width = 75
+    Anchors = [akBottom]
+    Caption = '&Ok'
+    ModalResult = 1
+    TabOrder = 1
+  end
+  object ButtonCancel: TButton
+    Left = 219
+    Height = 25
+    Top = 242
+    Width = 75
+    Anchors = [akBottom]
+    Caption = '&Cancel'
+    ModalResult = 2
+    TabOrder = 2
+  end
+end

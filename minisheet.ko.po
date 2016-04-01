@@ -1,0 +1,322 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: minisheet_main.rsinputcsvdeli
+msgid "Input CSV Delimiter character"
+msgstr "CSV 분할 문자 입력"
+
+#: minisheet_main.rssisequaltode
+msgid "\"%s\" is equal to DecimalSeparator"
+msgstr "\"%s\" 는 소수점과 같은 문자입니다"
+
+#: tformcellfunc.button1.caption
+msgctxt "tformcellfunc.button1.caption"
+msgid "&Ok"
+msgstr "확인(&O)"
+
+#: tformcellfunc.button2.caption
+msgctxt "tformcellfunc.button2.caption"
+msgid "&Cancel"
+msgstr "취소(&C)"
+
+#: tformcellfunc.caption
+msgctxt "tformcellfunc.caption"
+msgid "Func"
+msgstr "함수"
+
+#: tformcellfunc.cbfunc.text
+msgid "SUM"
+msgstr ""
+
+#: tformcellfunc.checkbox1.caption
+msgid "&Use Bottom cell"
+msgstr "아래 셀 사용(&U)"
+
+#: tformcellfunc.editcell.text
+msgid "A1"
+msgstr ""
+
+#: tformcellfunc.label1.caption
+msgctxt "TFORMCELLFUNC.LABEL1.CAPTION"
+msgid "Func"
+msgstr "함수"
+
+#: tformcellfunc.label2.caption
+msgid "Dest"
+msgstr "위치"
+
+#: tformmain.actionautocellwidth.caption
+msgid "Fit all Cell Width"
+msgstr "모든 셀 폭 맞추기"
+
+#: tformmain.actionautocellwidth.hint
+msgid "Fit all cells"
+msgstr ""
+
+#: tformmain.actionautocellwidth2.caption
+msgid "Auto Cell Width"
+msgstr "셀 폭 자동"
+
+#: tformmain.actionautocellwidth2.hint
+msgid "Auto cell width"
+msgstr ""
+
+#: tformmain.actionautodown.caption
+msgid "Auto Down"
+msgstr "아래 자동 이동"
+
+#: tformmain.actionautodown.hint
+msgid "Auto Going down cell"
+msgstr ""
+
+#: tformmain.actionclosesheet.caption
+msgctxt "tformmain.actionclosesheet.caption"
+msgid "Close Sheet"
+msgstr "시트 닫기"
+
+#: tformmain.actionclosesheet.hint
+msgctxt "tformmain.actionclosesheet.hint"
+msgid "Close Sheet"
+msgstr "시트 닫기"
+
+#: tformmain.actioncopycalced.caption
+msgid "Copy Calced Cells"
+msgstr "연산된 셀 복사"
+
+#: tformmain.actioncopycalced.hint
+msgid "Copy calculated"
+msgstr ""
+
+#: tformmain.actioncopycells.caption
+msgctxt "tformmain.actioncopycells.caption"
+msgid "Copy Cells"
+msgstr "셀 복사"
+
+#: tformmain.actioncopycells.hint
+msgctxt "tformmain.actioncopycells.hint"
+msgid "Copy Cells"
+msgstr "셀 복사"
+
+#: tformmain.actioncutcells.caption
+msgctxt "tformmain.actioncutcells.caption"
+msgid "Cut Cells"
+msgstr "셀 자르기"
+
+#: tformmain.actioncutcells.hint
+msgctxt "tformmain.actioncutcells.hint"
+msgid "Cut Cells"
+msgstr "셀 자르기"
+
+#: tformmain.actionexportcsv.caption
+msgid "Export CSV"
+msgstr "CSV 내보내기"
+
+#: tformmain.actionexportcsv.hint
+msgid "Export to CSV"
+msgstr ""
+
+#: tformmain.actionexportexcel.caption
+msgid "Export Excel"
+msgstr "Excel 파일 내보내기"
+
+#: tformmain.actionexportexcel.hint
+msgid "Export to excel file"
+msgstr ""
+
+#: tformmain.actionimportexcel.caption
+msgid "Import Excel"
+msgstr "Excel 파일 가져오기"
+
+#: tformmain.actionimportexcel.hint
+msgid "Import Excel file"
+msgstr ""
+
+#: tformmain.actionnewsheet.caption
+msgid "New Sheet"
+msgstr "새 시트"
+
+#: tformmain.actionnewsheet.hint
+msgid "Create New Sheet"
+msgstr ""
+
+#: tformmain.actionpastecell.caption
+msgid "Smart Paste"
+msgstr "스마트 붙여넣기"
+
+#: tformmain.actionpastecell.hint
+msgid "Paste cells"
+msgstr ""
+
+#: tformmain.actionprint.caption
+msgid "&Print"
+msgstr ""
+
+#: tformmain.actionprint.hint
+msgid "Print"
+msgstr ""
+
+#: tformmain.actionprintcolleft.caption
+msgid "Print left visible column"
+msgstr ""
+
+#: tformmain.actionprintnoframe.caption
+msgid "Print No Cell Frames"
+msgstr ""
+
+#: tformmain.actionprintnovalidrow.caption
+msgid "Print All Rows"
+msgstr ""
+
+#: tformmain.actionredodelete.caption
+msgid "&Redo"
+msgstr ""
+
+#: tformmain.actionsetcsvdelimiter.caption
+msgid "CSV Delimiter"
+msgstr "CSV 구분문자"
+
+#: tformmain.actionsetcsvdelimiter.hint
+msgid "Set CSV Delimiter"
+msgstr ""
+
+#: tformmain.actionsheetnext.caption
+msgid "Next"
+msgstr "다음"
+
+#: tformmain.actionsheetnext.hint
+msgid "Next Sheet"
+msgstr ""
+
+#: tformmain.actionsheetprev.caption
+msgid "Previous"
+msgstr "이전"
+
+#: tformmain.actionsheetprev.hint
+msgid "Previous sheet"
+msgstr ""
+
+#: tformmain.actionundelcell.caption
+msgid "Undo Cell"
+msgstr ""
+
+#: tformmain.actionundelete.caption
+msgid "Undelete"
+msgstr "지운 것 복원"
+
+#: tformmain.actionundelete.hint
+msgid "Revert Cells"
+msgstr ""
+
+#: tformmain.caption
+msgid "Mini Sheet"
+msgstr "미니 시트"
+
+#: tformmain.fileexit1.caption
+msgid "E&xit"
+msgstr "종료(&x)"
+
+#: tformmain.fileexit1.hint
+msgid "Exit"
+msgstr ""
+
+#: tformmain.fileopen1.caption
+msgid "&Open ..."
+msgstr "열기(&O) ..."
+
+#: tformmain.fileopen1.hint
+msgid "Open"
+msgstr ""
+
+#: tformmain.filesaveas1.caption
+msgid "Save &As ..."
+msgstr "저장(&A) ..."
+
+#: tformmain.filesaveas1.hint
+msgid "Save As"
+msgstr ""
+
+#: tformmain.gridfunccells.caption
+msgid "Cell functions"
+msgstr "셀 함수"
+
+#: tformmain.gridfunccells.hint
+msgid "Cell Functions"
+msgstr ""
+
+#: tformmain.menuitem1.caption
+msgid "&File"
+msgstr "파일(&F)"
+
+#: tformmain.menuitem3.caption
+msgid "S&heet"
+msgstr "시트(&h)"
+
+#: tformmain.menuitem32.caption
+msgctxt "tformmain.menuitem32.caption"
+msgid "-"
+msgstr ""
+
+#: tformmain.menuitem33.caption
+msgctxt "TFORMMAIN.MENUITEM33.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tformmain.menuitem35.caption
+msgctxt "TFORMMAIN.MENUITEM35.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tformmain.menuitem36.caption
+msgctxt "TFORMMAIN.MENUITEM36.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tformmain.menuitem40.caption
+msgctxt "tformmain.menuitem40.caption"
+msgid "-"
+msgstr ""
+
+#: tformmain.menuitem41.caption
+msgctxt "tformmain.menuitem41.caption"
+msgid "-"
+msgstr ""
+
+#: tformmain.menuitem44.caption
+msgctxt "tformmain.menuitem44.caption"
+msgid "-"
+msgstr ""
+
+#: tformmain.toolbar1.caption
+msgid "ToolBar1"
+msgstr ""
+
+#: tformmain.toolbutton1.caption
+msgid "ToolButton1"
+msgstr ""
+
+#: tformmain.toolbutton10.caption
+msgid "ToolButton10"
+msgstr ""
+
+#: tformmain.toolbutton5.caption
+msgid "ToolButton5"
+msgstr ""
+
+#: tformoption.buttoncancel.caption
+msgctxt "tformoption.buttoncancel.caption"
+msgid "&Cancel"
+msgstr "취소(&C)"
+
+#: tformoption.buttonok.caption
+msgctxt "tformoption.buttonok.caption"
+msgid "&Ok"
+msgstr "확인(&O)"
+
+#: tformoption.caption
+msgid "Option"
+msgstr ""
+
+#: usheettab.rssheetsismodi
+msgid "\"%s\" is modified. Save this sheet?"
+msgstr "\"%s\" 이 바뀌었습니다. 저장할까요?"
+

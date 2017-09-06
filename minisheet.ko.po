@@ -251,41 +251,6 @@ msgstr "파일(&F)"
 msgid "S&heet"
 msgstr "시트(&h)"
 
-#: tformmain.menuitem32.caption
-msgctxt "tformmain.menuitem32.caption"
-msgid "-"
-msgstr ""
-
-#: tformmain.menuitem33.caption
-msgctxt "TFORMMAIN.MENUITEM33.CAPTION"
-msgid "-"
-msgstr ""
-
-#: tformmain.menuitem35.caption
-msgctxt "TFORMMAIN.MENUITEM35.CAPTION"
-msgid "-"
-msgstr ""
-
-#: tformmain.menuitem36.caption
-msgctxt "TFORMMAIN.MENUITEM36.CAPTION"
-msgid "-"
-msgstr ""
-
-#: tformmain.menuitem40.caption
-msgctxt "tformmain.menuitem40.caption"
-msgid "-"
-msgstr ""
-
-#: tformmain.menuitem41.caption
-msgctxt "tformmain.menuitem41.caption"
-msgid "-"
-msgstr ""
-
-#: tformmain.menuitem44.caption
-msgctxt "tformmain.menuitem44.caption"
-msgid "-"
-msgstr ""
-
 #: tformmain.toolbar1.caption
 msgid "ToolBar1"
 msgstr ""

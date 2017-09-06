@@ -426,7 +426,8 @@ var
   i:Integer;
   p:TPoint;
 begin
-  i:=NoteSheet.TabIndexAtClientPos(Point(X,Y));
+  // i:=NoteSheet.TabIndexAtClientPos(Point(X,Y));
+  i:=NoteSheet.IndexOfTabAt(Point(X,Y));
   if i<>-1 then begin
     NoteSheet.ActivePageIndex:=i;
     //GetGrid(NoteSheet.ActivePage).SetFocus;

@@ -9,42 +9,6 @@ msgstr ""
 msgid "\"%s\" is equal to DecimalSeparator"
 msgstr ""
 
-#: tformcellfunc.button1.caption
-msgctxt "tformcellfunc.button1.caption"
-msgid "&Ok"
-msgstr ""
-
-#: tformcellfunc.button2.caption
-msgctxt "tformcellfunc.button2.caption"
-msgid "&Cancel"
-msgstr ""
-
-#: tformcellfunc.caption
-msgctxt "tformcellfunc.caption"
-msgid "Func"
-msgstr ""
-
-#: tformcellfunc.cbfunc.text
-msgid "SUM"
-msgstr ""
-
-#: tformcellfunc.checkbox1.caption
-msgid "&Use Bottom cell"
-msgstr ""
-
-#: tformcellfunc.editcell.text
-msgid "A1"
-msgstr ""
-
-#: tformcellfunc.label1.caption
-msgctxt "TFORMCELLFUNC.LABEL1.CAPTION"
-msgid "Func"
-msgstr ""
-
-#: tformcellfunc.label2.caption
-msgid "Dest"
-msgstr ""
-
 #: tformmain.actionautocellwidth.caption
 msgid "Fit all Cell Width"
 msgstr ""
@@ -75,7 +39,7 @@ msgid "Close Sheet"
 msgstr ""
 
 #: tformmain.actionclosesheet.hint
-msgctxt "TFORMMAIN.ACTIONCLOSESHEET.HINT"
+msgctxt "tformmain.actionclosesheet.hint"
 msgid "Close Sheet"
 msgstr ""
 
@@ -93,7 +57,7 @@ msgid "Copy Cells"
 msgstr ""
 
 #: tformmain.actioncopycells.hint
-msgctxt "TFORMMAIN.ACTIONCOPYCELLS.HINT"
+msgctxt "tformmain.actioncopycells.hint"
 msgid "Copy Cells"
 msgstr ""
 
@@ -103,7 +67,7 @@ msgid "Cut Cells"
 msgstr ""
 
 #: tformmain.actioncutcells.hint
-msgctxt "TFORMMAIN.ACTIONCUTCELLS.HINT"
+msgctxt "tformmain.actioncutcells.hint"
 msgid "Cut Cells"
 msgstr ""
 
@@ -265,20 +229,6 @@ msgstr ""
 
 #: tformmain.toolbutton5.caption
 msgid "ToolButton5"
-msgstr ""
-
-#: tformoption.buttoncancel.caption
-msgctxt "TFORMOPTION.BUTTONCANCEL.CAPTION"
-msgid "&Cancel"
-msgstr ""
-
-#: tformoption.buttonok.caption
-msgctxt "TFORMOPTION.BUTTONOK.CAPTION"
-msgid "&Ok"
-msgstr ""
-
-#: tformoption.caption
-msgid "Option"
 msgstr ""
 
 #: usheettab.rssheetsismodi

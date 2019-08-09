@@ -6,6 +6,7 @@ msgid "Input CSV Delimiter character"
 msgstr ""
 
 #: minisheet_main.rssisequaltode
+#, object-pascal-format
 msgid "\"%s\" is equal to DecimalSeparator"
 msgstr ""
 
@@ -232,6 +233,7 @@ msgid "ToolButton5"
 msgstr ""
 
 #: usheettab.rssheetsismodi
+#, object-pascal-format
 msgid "\"%s\" is modified. Save this sheet?"
 msgstr "\"%s\" 이 바뀌었습니다. 저장할까요?"
 

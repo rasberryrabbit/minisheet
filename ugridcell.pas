@@ -812,11 +812,14 @@ begin
         end;
       end;
 
+    {
     // default = .ods
     if not WorkB.GetFormatFromFileHeader{GetFormatFromFileName}(Filename,fm) then begin
       fm:=sfOpenDocument;
       ChangeFileExt(Filename,STR_OPENDOCUMENT_CALC_EXTENSION);
     end;
+    }
+    ChangeFileExt(Filename,STR_OPENDOCUMENT_CALC_EXTENSION);
     WorkB.WriteToFile(Filename,fm,True);
   finally
     WorkB.Free;
@@ -833,7 +836,7 @@ var
 begin
   workb:=TsWorkbook.Create;
   try
-    workb.ReadFromFile(Filename);
+    workb.ReadFromFileIgnoringExtension(Filename);
     if workb.GetWorksheetCount>0 then begin
       sheet:=workb.GetWorksheetByIndex(0);
       if (sheet<>nil) and (sheet.GetCellCount>0) then begin

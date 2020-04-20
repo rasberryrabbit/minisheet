@@ -203,7 +203,7 @@ begin
         else
           retv:='';
       {$endif}
-      if ((retv<>'') and not (retv[1] in ['''','<','>'])) and
+      if ((retv<>'') and (retv[1]='=')) and
          not IsNumericSigned(retv) then begin
         // prevent self reference infinite recursive call
         if rsolver.CheckRef(cell)=-1 then begin

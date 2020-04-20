@@ -912,6 +912,9 @@ begin
       i := GetTokenFromStr(str,tokn,i);
       if i=0 then
         break;
+      // skip '='
+      if (i=2) and (tokn='=') then
+        Continue;
       value := TSimpleTokenVar.Create;
       try
         value.Precision := FPrecision;

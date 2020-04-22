@@ -882,7 +882,7 @@ type
   TOpenCloseChk = array[0..MaxParamChkDeep] of Integer;
   POpenCloseChk = ^TOpenCloseChk;
 var
-  i, Len, ParamChkDeep, OpenCloseCount, TokStart: Integer;
+  i, Len, ParamChkDeep, OpenCloseCount, TokStart, ftokenpos: Integer;
   tokn : string;
   value, tempvar : TSimpleTokenVar;
   PrevOp : TSimpleTokenVar;
@@ -894,6 +894,7 @@ begin
   Result:=0;
   i := 1;
   prevtk:=toNone;
+  ftokenpos:=0;
   ParamChkDeep:=0;
   Len := Length(str);
   FErrcode:=0;
@@ -913,8 +914,10 @@ begin
       if i=0 then
         break;
       // skip '='
-      if (i=2) and (tokn='=') then
-        Continue;
+      if (ftokenpos=0) and (tokn='=') then begin
+        ftokenpos:=i;
+        continue;
+      end;
       value := TSimpleTokenVar.Create;
       try
         value.Precision := FPrecision;

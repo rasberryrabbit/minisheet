@@ -191,7 +191,7 @@ var
 implementation
 
 uses uCellFormulaPaser, fpspreadsheet, fpsallformats, uformcellfunc, DefaultTranslator,
-  Translations, gettext, LCLMessageGlue;
+  Translations, gettext, LCLMessageGlue, SynEditTypes;
 
 {$R *.lfm}
 

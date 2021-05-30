@@ -3,134 +3,134 @@ msgstr "Content-Type: text/plain; charset=UTF-8"
 
 #: minisheet_main.rsinputcsvdeli
 msgid "Input CSV Delimiter character"
-msgstr ""
+msgstr "CSV 분리 문자 입력"
 
 #: minisheet_main.rssisequaltode
 #, object-pascal-format
 msgid "\"%s\" is equal to DecimalSeparator"
-msgstr ""
+msgstr "\"%s\"는 소수점 분리 문자와 같습니다"
 
 #: tformmain.actionautocellwidth.caption
 msgid "Fit all Cell Width"
-msgstr ""
+msgstr "모든 셀 폭 맞춤"
 
 #: tformmain.actionautocellwidth.hint
 msgid "Fit all cells"
-msgstr ""
+msgstr "모든 셀 폭 맞춤"
 
 #: tformmain.actionautocellwidth2.caption
 msgid "Auto Cell Width"
-msgstr ""
+msgstr "셀 폭 자동"
 
 #: tformmain.actionautocellwidth2.hint
 msgid "Auto cell width"
-msgstr ""
+msgstr "셀 폭 자동"
 
 #: tformmain.actionautodown.caption
 msgid "Auto Down"
-msgstr ""
+msgstr "자동 하단 셀 확장"
 
 #: tformmain.actionautodown.hint
 msgid "Auto Going down cell"
-msgstr ""
+msgstr "자동 셀 하단 확장"
 
 #: tformmain.actionclosesheet.caption
 msgctxt "tformmain.actionclosesheet.caption"
 msgid "Close Sheet"
-msgstr ""
+msgstr "시트 닫기"
 
 #: tformmain.actionclosesheet.hint
 msgctxt "tformmain.actionclosesheet.hint"
 msgid "Close Sheet"
-msgstr ""
+msgstr "시트 닫기"
 
 #: tformmain.actioncopycalced.caption
 msgid "Copy Calced Cells"
-msgstr ""
+msgstr "연산된 셀값을 복사"
 
 #: tformmain.actioncopycalced.hint
 msgid "Copy calculated"
-msgstr ""
+msgstr "연산된 셀값을 복사"
 
 #: tformmain.actioncopycells.caption
 msgctxt "tformmain.actioncopycells.caption"
 msgid "Copy Cells"
-msgstr ""
+msgstr "셀 복사"
 
 #: tformmain.actioncopycells.hint
 msgctxt "tformmain.actioncopycells.hint"
 msgid "Copy Cells"
-msgstr ""
+msgstr "셀 복사"
 
 #: tformmain.actioncutcells.caption
 msgctxt "tformmain.actioncutcells.caption"
 msgid "Cut Cells"
-msgstr ""
+msgstr "셀 잘라내기"
 
 #: tformmain.actioncutcells.hint
 msgctxt "tformmain.actioncutcells.hint"
 msgid "Cut Cells"
-msgstr ""
+msgstr "셀 잘라내기"
 
 #: tformmain.actionexportcsv.caption
 msgid "Export CSV"
-msgstr ""
+msgstr "CSV 내보내기"
 
 #: tformmain.actionexportcsv.hint
 msgid "Export to CSV"
-msgstr ""
+msgstr "CSV 내보내기"
 
 #: tformmain.actionexportexcel.caption
 msgid "Export Excel"
-msgstr ""
+msgstr "Excel 내보내기"
 
 #: tformmain.actionexportexcel.hint
 msgid "Export to excel file"
-msgstr ""
+msgstr "엑셀로 내보내기"
 
 #: tformmain.actionimportexcel.caption
 msgid "Import Excel"
-msgstr ""
+msgstr "엑셀 가져오기"
 
 #: tformmain.actionimportexcel.hint
 msgid "Import Excel file"
-msgstr ""
+msgstr "엑셀 가져오기"
 
 #: tformmain.actionnewsheet.caption
 msgid "New Sheet"
-msgstr ""
+msgstr "새 시트"
 
 #: tformmain.actionnewsheet.hint
 msgid "Create New Sheet"
-msgstr ""
+msgstr "새 시트"
 
 #: tformmain.actionpastecell.caption
 msgid "Smart Paste"
-msgstr ""
+msgstr "똑똑한 붙이기"
 
 #: tformmain.actionpastecell.hint
 msgid "Paste cells"
-msgstr ""
+msgstr "셀 붙이기"
 
 #: tformmain.actionprint.caption
 msgid "&Print"
-msgstr ""
+msgstr "인쇄(&P)"
 
 #: tformmain.actionprint.hint
 msgid "Print"
-msgstr ""
+msgstr "인쇄"
 
 #: tformmain.actionprintcolleft.caption
 msgid "Print left visible column"
-msgstr ""
+msgstr "왼쪽 보이는 칸만 인쇄"
 
 #: tformmain.actionprintnoframe.caption
 msgid "Print No Cell Frames"
-msgstr ""
+msgstr "셀 프레임 생략"
 
 #: tformmain.actionprintnovalidrow.caption
 msgid "Print All Rows"
-msgstr ""
+msgstr "모든 줄을 인쇄"
 
 #: tformmain.actionredodelete.caption
 msgid "&Redo"
@@ -146,19 +146,19 @@ msgstr ""
 
 #: tformmain.actionsheetnext.caption
 msgid "Next"
-msgstr ""
+msgstr "다음"
 
 #: tformmain.actionsheetnext.hint
 msgid "Next Sheet"
-msgstr ""
+msgstr "다음 시트"
 
 #: tformmain.actionsheetprev.caption
 msgid "Previous"
-msgstr ""
+msgstr "이전"
 
 #: tformmain.actionsheetprev.hint
 msgid "Previous sheet"
-msgstr ""
+msgstr "이전 시트"
 
 #: tformmain.actionundelcell.caption
 msgid "Undo Cell"
@@ -174,47 +174,47 @@ msgstr ""
 
 #: tformmain.caption
 msgid "Mini Sheet"
-msgstr ""
+msgstr "미니 시트"
 
 #: tformmain.fileexit1.caption
 msgid "E&xit"
-msgstr ""
+msgstr "종료(&x)"
 
 #: tformmain.fileexit1.hint
 msgid "Exit"
-msgstr ""
+msgstr "종료"
 
 #: tformmain.fileopen1.caption
 msgid "&Open ..."
-msgstr ""
+msgstr "열기(&O) ..."
 
 #: tformmain.fileopen1.hint
 msgid "Open"
-msgstr ""
+msgstr "열기"
 
 #: tformmain.filesaveas1.caption
 msgid "Save &As ..."
-msgstr ""
+msgstr "새이름으로 저장(&A)..."
 
 #: tformmain.filesaveas1.hint
 msgid "Save As"
-msgstr ""
+msgstr "새이름으로 저장"
 
 #: tformmain.gridfunccells.caption
 msgid "Cell functions"
-msgstr ""
+msgstr "셀 함수들"
 
 #: tformmain.gridfunccells.hint
 msgid "Cell Functions"
-msgstr ""
+msgstr "셀 함수들"
 
 #: tformmain.menuitem1.caption
 msgid "&File"
-msgstr ""
+msgstr "파일(&F)"
 
 #: tformmain.menuitem3.caption
 msgid "S&heet"
-msgstr ""
+msgstr "시트(&h)"
 
 #: tformmain.toolbar1.caption
 msgid "ToolBar1"

@@ -8,7 +8,7 @@ interface
 
 uses
   Classes, SysUtils,
-  Grids { {$ifdef WINDOWS},messages{$endif} },Graphics, contnrs;
+  Grids, gridsime { {$ifdef WINDOWS},messages{$endif} },Graphics, contnrs;
 
 type
 

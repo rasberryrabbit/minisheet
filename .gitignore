@@ -3,3 +3,5 @@ lib/
 minisheet_src53/
 sheeet테스트/
 *.bak
+*.dbg
+*.lps

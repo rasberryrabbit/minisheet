@@ -913,10 +913,15 @@ begin
       i := GetTokenFromStr(str,tokn,i);
       if i=0 then
         break;
-      // skip '='
-      if (ftokenpos=0) and (tokn='=') then begin
-        ftokenpos:=i;
-        continue;
+      // check formula starting
+      if ftokenpos=0 then begin
+        if tokn='=' then begin
+          ftokenpos:=i;
+          continue;
+        end else begin
+          FErrcode:=-1;
+          exit(-1);
+        end;
       end;
       value := TSimpleTokenVar.Create;
       try

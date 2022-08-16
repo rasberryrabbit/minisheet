@@ -357,6 +357,7 @@ begin
   newedit.OnEnter:=@SynEdit1Enter;
   newedit.OnExit:=@SynEdit1Exit;
   newedit.OnKeyDown:=@SynEdit1KeyDown;
+  NewEdit.Font.Name:='default';
   SynCompletion1.Editor:=NewEdit;
 end;
 

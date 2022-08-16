@@ -14,7 +14,7 @@ object FormMain: TFormMain
   OnDropFiles = FormDropFiles
   OnShow = FormShow
   Position = poDefaultPosOnly
-  LCLVersion = '2.1.0.0'
+  LCLVersion = '2.3.0.0'
   object Panel1: TPanel
     Left = 0
     Height = 492

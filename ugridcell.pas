@@ -647,12 +647,13 @@ begin
     R.LoadFromStream(Stream);
     for i:=0 to R.Count-1 do begin
       s:=R.Strings[i];
-      if (s<>'') and (i>=RowCount) then
-        RowCount:=RowCount+1;
+      if (s<>'') and (i+1>=RowCount) then begin
+        RowCount:=RowCount+8;
+      end;
       j:=1;
       while s<>'' do begin
-        if j>=ColCount then begin
-          ColCount:=j+1;
+        if j+1>=ColCount then begin
+          ColCount:=j+4;
         end;
         Cells[j,i+1]:=GetCellFromStr(s,delimiter);
         Inc(j);

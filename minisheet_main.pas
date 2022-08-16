@@ -213,7 +213,7 @@ procedure TFormMain.SynEdit1KeyDown(Sender: TObject; var Key: Word;
 begin
   if (Key=VK_RETURN) or (Key=VK_UP) or (Key=VK_DOWN) or (Key=VK_TAB) then begin
     with TCellTabSheet(NoteSheet.ActivePage).Solver.Grid do begin
-      Cells[Col,Row]:=TrimRight(NewEdit.Lines.Text);
+      Cells[Col,Row]:=NewEdit.LineText;
       EditorMode:=False;
       SetFocus;
     end;
@@ -230,7 +230,7 @@ begin
   end else if Key=VK_LEFT then begin
     if (NewEdit.SelStart=1) and (NewEdit.SelEnd<2) then begin
       with TCellTabSheet(NoteSheet.ActivePage).Solver.Grid do begin
-        Cells[Col,Row]:=TrimRight(NewEdit.Lines.Text);
+        Cells[Col,Row]:=NewEdit.LineText;
         EditorMode:=False;
         SetFocus;
       end;
@@ -476,7 +476,7 @@ procedure TFormMain.SynEdit1Exit(Sender: TObject);
 begin
   if NoteSheet.IndexOf(APage)<>-1 then
     with GetGrid(APage) do
-      Cells[Col,Row]:=NewEdit.Text;
+      Cells[Col,Row]:=NewEdit.LineText;
   ReCreateEdit;
   with GetGrid(APage) do
     NewEdit.Text:=Cells[Col,Row];

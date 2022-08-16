@@ -227,7 +227,7 @@ begin
       EditorMode:=False;
       SetFocus;
     end;
-  end else if Key=VK_LEFT then begin
+  end else if (Key=VK_LEFT) or (Key=VK_RIGHT) then begin
     if (NewEdit.SelStart=1) and (NewEdit.SelEnd<2) then begin
       with TCellTabSheet(NoteSheet.ActivePage).Solver.Grid do begin
         Cells[Col,Row]:=NewEdit.LineText;

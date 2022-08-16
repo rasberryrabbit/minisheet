@@ -504,8 +504,8 @@ const
         expos:=i;
         if expmark<>nil then
           expmark^:=i;
-      end else begin // non-digit and signed
-        Result:=False;
+      end else begin
+        Result:=str[i] in [#$0a,#$0d]; // true when linebreak
         break;
       end;
       Inc(i);

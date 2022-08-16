@@ -900,13 +900,11 @@ begin
     {$endif}
     if txt<>'' then
       // text justify
-      if not (txt[1] in ['''','>','<']) then begin
-        ts.Alignment:=taRightJustify;
-        if not GetWorkSheet(self).Solver.CheckNumber(txt) then
-          if 0<>GetWorkSheet(self).SolveFormula(txt) then
-            ts.Alignment:=taLeftJustify;
-      end
-      else begin
+      if not (txt[1] in ['''','<','>']) then begin
+        if GetWorkSheet(self).Solver.CheckNumber(txt) or
+           (0=GetWorkSheet(self).SolveFormula(txt)) then
+            ts.Alignment:=taRightJustify
+      end else begin
         if txt[1]='>' then
           ts.Alignment:=taRightJustify
           else

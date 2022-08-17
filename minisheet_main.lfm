@@ -1038,6 +1038,7 @@ object FormMain: TFormMain
     )
     Position = 0
     LinesInWindow = 6
+    OnSearchPosition = SynCompletion1SearchPosition
     SelectedColor = clHighlight
     CaseSensitive = False
     Width = 262

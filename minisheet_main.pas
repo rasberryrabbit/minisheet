@@ -165,6 +165,7 @@ type
       Y: Integer);
     procedure GridKeyDown(Sender: TObject; var Key: Word;
       Shift: TShiftState);
+    procedure SynCompletion1SearchPosition(var APosition: integer);
     procedure SynEdit1Enter(Sender: TObject);
     procedure SynEdit1Exit(Sender: TObject);
     procedure SynEdit1KeyDown(Sender: TObject; var Key: Word; Shift: TShiftState
@@ -191,7 +192,7 @@ var
 implementation
 
 uses uCellFormulaPaser, fpspreadsheet, fpsallformats, uformcellfunc, DefaultTranslator,
-  Translations, gettext, LCLMessageGlue, SynEditTypes;
+  Translations, gettext, LCLMessageGlue, SynEditTypes, LazStringUtils;
 
 {$R *.lfm}
 
@@ -463,6 +464,18 @@ begin
       NewEdit.SelectAll;
       TStrGridCell(Sender).AddEditHistory;
       Key:=0;
+    end;
+  end;
+end;
+
+procedure TFormMain.SynCompletion1SearchPosition(var APosition: integer);
+var
+  i: Integer;
+begin
+  for i:=0 to SynCompletion1.ItemList.Count-1 do begin
+    if LazStartsText(SynCompletion1.CurrentString,SynCompletion1.ItemList[i]) then begin
+      APosition:=i;
+      break;
     end;
   end;
 end;

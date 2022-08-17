@@ -13,7 +13,7 @@ object FormMain: TFormMain
   OnDestroy = FormDestroy
   OnDropFiles = FormDropFiles
   OnShow = FormShow
-  Position = poDefaultPosOnly
+  Position = poDefault
   LCLVersion = '2.3.0.0'
   object Panel1: TPanel
     Left = 0

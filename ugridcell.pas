@@ -10,6 +10,11 @@ uses
   Classes, SysUtils,
   Grids, gridsime { {$ifdef WINDOWS},messages{$endif} },Graphics, contnrs;
 
+const
+  AlignC = '<';
+  AlignR = '>';
+  GridCell_Justify : set of char = [AlignR,AlignC];
+
 type
 
   TEditHistoryItem = class
@@ -486,7 +491,7 @@ begin
     W:=0;
     for i := 1 to RowCount-1 do begin
       txt:=Cells[aCol,i];
-      if (txt<>'') and (txt[1] in ['''','>','<']) then
+      if (txt<>'') and (txt[1] in GridCell_Justify) then
         Delete(txt,1,1)
         else
           if not GetWorkSheet(self).Solver.CheckNumber(txt) then
@@ -735,7 +740,7 @@ begin
         for i:=0 to R.Count-1 do begin
           txt:=R.Strings[i];
           if txt<>'' then
-            if not(txt[1] in ['''','>','<']) then begin
+            if not(txt[1] in GridCell_Justify) then begin
               if not GetWorkSheet(self).Solver.CheckNumber(txt) then
                 GetWorkSheet(self).SolveFormula(txt);
             end else
@@ -785,7 +790,7 @@ begin
       for i:=1 to ValidCol do begin
         txt:=Cells[i,j];
         if txt<>'' then begin
-          if not (txt[1] in ['''','>','<']) then begin
+          if not (txt[1] in GridCell_Justify) then begin
             if not GetWorkSheet(self).Solver.CheckNumber(txt) then
               GetWorkSheet(self).SolveFormula(txt);
           end else
@@ -882,15 +887,15 @@ begin
     {$endif}
     if txt<>'' then
       // text justify
-      if not (txt[1] in ['''','<','>']) then begin
+      if not (txt[1] in GridCell_Justify) then begin
         if GetWorkSheet(self).Solver.CheckNumber(txt) or
            (0=GetWorkSheet(self).SolveFormula(txt)) then
             ts.Alignment:=taRightJustify
       end else begin
-        if txt[1]='>' then
+        if txt[1]=AlignR then
           ts.Alignment:=taRightJustify
           else
-            if txt[1]='<' then
+            if txt[1]=AlignC then
               ts.Alignment:=taCenter;
         Delete(txt,1,1);
       end;
@@ -990,7 +995,7 @@ begin
       end else begin
         txt:=Cells[j, i];
         if CopySolved and (txt<>'') then
-          if not (txt[1] in ['''', '>', '<']) then begin
+          if not (txt[1] in GridCell_Justify) then begin
             if not GetWorkSheet(self).Solver.CheckNumber(txt) then
               GetWorkSheet(self).SolveFormula(txt);
           end;

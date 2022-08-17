@@ -534,7 +534,7 @@ begin
       txt:=grid.Cells[aCol,ReportRow];
       if txt<>'' then
         // text justify
-        if not (txt[1] in ['''','>','<']) then begin
+        if not (txt[1] in GridCell_Justify) then begin
           me.Alignment:=taRightJustify;
           if not GetWorkSheet(grid).Solver.CheckNumber(txt) then
             if 0<>GetWorkSheet(grid).SolveFormula(txt) then
@@ -542,10 +542,10 @@ begin
         end
         else begin
           if me<>nil then
-            if txt[1]='>' then
+            if txt[1]=AlignR then
               me.Alignment:=taRightJustify
               else
-                if txt[1]='<' then
+                if txt[1]=AlignC then
                   me.Alignment:=taCenter
                   else
                     me.Alignment:=taLeftJustify;
@@ -568,7 +568,7 @@ begin
     if (aCol>0) and (aCol<grid.ColCount) then begin
         txt:=grid.Cells[aCol,ReportRow];
         if txt<>'' then
-          if not (txt[1] in ['''','>','<']) then begin
+          if not (txt[1] in GridCell_Justify) then begin
             if not GetWorkSheet(grid).Solver.CheckNumber(txt) then
               GetWorkSheet(grid).SolveFormula(txt);
           end

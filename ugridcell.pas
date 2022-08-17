@@ -474,43 +474,24 @@ var
   i,W: Integer;
   Ts: TSize;
   TmpCanvas: TCanvas;
-  C: TGridColumn;
   txt:string;
 begin
   if (aCol<1) or (aCol>ColCount-1) then
     Exit;
 
   tmpCanvas := GetWorkingCanvas(Canvas);
-
-  C := ColumnFromGridColumn(aCol);
+  TmpCanvas.Font:=Font;
 
   try
     W:=0;
     for i := 1 to RowCount-1 do begin
-
-      if C<>nil then begin
-        if i<FixedRows then
-          tmpCanvas.Font := C.Title.Font
+      txt:=Cells[aCol,i];
+      if (txt<>'') and (txt[1] in ['''','>','<']) then
+        Delete(txt,1,1)
         else
-          tmpCanvas.Font := C.Font;
-      end else begin
-        if i<FixedRows then
-          tmpCanvas.Font := TitleFont
-        else
-          tmpCanvas.Font := Font;
-      end;
-
-      if (i=0) and (FixedRows>0) and (C<>nil) then
-        Ts := TmpCanvas.TextExtent(C.Title.Caption)
-      else begin
-        txt:=Cells[aCol,i];
-        if (txt<>'') and (txt[1] in ['''','>','<']) then
-          Delete(txt,1,1)
-          else
-            if not GetWorkSheet(self).Solver.CheckNumber(txt) then
-              GetWorkSheet(self).SolveFormula(txt);
-        Ts := TmpCanvas.TextExtent(txt);
-      end;
+          if not GetWorkSheet(self).Solver.CheckNumber(txt) then
+            GetWorkSheet(self).SolveFormula(txt);
+      Ts := TmpCanvas.TextExtent(txt);
 
       if Ts.Cx>W then
         W := Ts.Cx;
@@ -523,7 +504,7 @@ begin
   if W=0 then
     W := DefaultColWidth
   else
-    W := W + 8;
+    W := W;
 
   if MaxCellWidth<>0 then
     if W>MaxCellWidth then

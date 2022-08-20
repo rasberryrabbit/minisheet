@@ -1,0 +1,239 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: minisheet_main.rsinputcsvdeli
+msgid "Input CSV Delimiter character"
+msgstr ""
+
+#: minisheet_main.rssisequaltode
+#, object-pascal-format
+msgid "\"%s\" is equal to DecimalSeparator"
+msgstr ""
+
+#: tformmain.actionautocellwidth.caption
+msgid "Fit all Cell Width"
+msgstr ""
+
+#: tformmain.actionautocellwidth.hint
+msgid "Fit all cells"
+msgstr ""
+
+#: tformmain.actionautocellwidth2.caption
+msgid "Auto Cell Width"
+msgstr ""
+
+#: tformmain.actionautocellwidth2.hint
+msgid "Auto cell width"
+msgstr ""
+
+#: tformmain.actionautodown.caption
+msgid "Auto Down"
+msgstr ""
+
+#: tformmain.actionautodown.hint
+msgid "Auto Going down cell"
+msgstr ""
+
+#: tformmain.actionclosesheet.caption
+msgctxt "tformmain.actionclosesheet.caption"
+msgid "Close Sheet"
+msgstr ""
+
+#: tformmain.actionclosesheet.hint
+msgctxt "tformmain.actionclosesheet.hint"
+msgid "Close Sheet"
+msgstr ""
+
+#: tformmain.actioncopycalced.caption
+msgid "Copy Calced Cells"
+msgstr ""
+
+#: tformmain.actioncopycalced.hint
+msgid "Copy calculated"
+msgstr ""
+
+#: tformmain.actioncopycells.caption
+msgctxt "tformmain.actioncopycells.caption"
+msgid "Copy Cells"
+msgstr ""
+
+#: tformmain.actioncopycells.hint
+msgctxt "tformmain.actioncopycells.hint"
+msgid "Copy Cells"
+msgstr ""
+
+#: tformmain.actioncutcells.caption
+msgctxt "tformmain.actioncutcells.caption"
+msgid "Cut Cells"
+msgstr ""
+
+#: tformmain.actioncutcells.hint
+msgctxt "tformmain.actioncutcells.hint"
+msgid "Cut Cells"
+msgstr ""
+
+#: tformmain.actionexportcsv.caption
+msgid "Export CSV"
+msgstr ""
+
+#: tformmain.actionexportcsv.hint
+msgid "Export to CSV"
+msgstr ""
+
+#: tformmain.actionexportexcel.caption
+msgid "Export Excel"
+msgstr ""
+
+#: tformmain.actionexportexcel.hint
+msgid "Export to excel file"
+msgstr ""
+
+#: tformmain.actionimportexcel.caption
+msgid "Import Excel"
+msgstr ""
+
+#: tformmain.actionimportexcel.hint
+msgid "Import Excel file"
+msgstr ""
+
+#: tformmain.actionnewsheet.caption
+msgid "New Sheet"
+msgstr ""
+
+#: tformmain.actionnewsheet.hint
+msgid "Create New Sheet"
+msgstr ""
+
+#: tformmain.actionpastecell.caption
+msgid "Smart Paste"
+msgstr ""
+
+#: tformmain.actionpastecell.hint
+msgid "Paste cells"
+msgstr ""
+
+#: tformmain.actionprint.caption
+msgid "&Print"
+msgstr ""
+
+#: tformmain.actionprint.hint
+msgid "Print"
+msgstr ""
+
+#: tformmain.actionprintcolleft.caption
+msgid "Print left visible column"
+msgstr ""
+
+#: tformmain.actionprintnoframe.caption
+msgid "Print No Cell Frames"
+msgstr ""
+
+#: tformmain.actionprintnovalidrow.caption
+msgid "Print All Rows"
+msgstr ""
+
+#: tformmain.actionredodelete.caption
+msgid "&Redo"
+msgstr ""
+
+#: tformmain.actionsetcsvdelimiter.caption
+msgid "CSV Delimiter"
+msgstr ""
+
+#: tformmain.actionsetcsvdelimiter.hint
+msgid "Set CSV Delimiter"
+msgstr ""
+
+#: tformmain.actionsheetnext.caption
+msgid "Next"
+msgstr ""
+
+#: tformmain.actionsheetnext.hint
+msgid "Next Sheet"
+msgstr ""
+
+#: tformmain.actionsheetprev.caption
+msgid "Previous"
+msgstr ""
+
+#: tformmain.actionsheetprev.hint
+msgid "Previous sheet"
+msgstr ""
+
+#: tformmain.actionundelcell.caption
+msgid "Undo Cell"
+msgstr ""
+
+#: tformmain.actionundelete.caption
+msgid "Undelete"
+msgstr ""
+
+#: tformmain.actionundelete.hint
+msgid "Revert Cells"
+msgstr ""
+
+#: tformmain.caption
+msgid "Mini Sheet"
+msgstr ""
+
+#: tformmain.fileexit1.caption
+msgid "E&xit"
+msgstr ""
+
+#: tformmain.fileexit1.hint
+msgid "Exit"
+msgstr ""
+
+#: tformmain.fileopen1.caption
+msgid "&Open ..."
+msgstr ""
+
+#: tformmain.fileopen1.hint
+msgid "Open"
+msgstr ""
+
+#: tformmain.filesaveas1.caption
+msgid "Save &As ..."
+msgstr ""
+
+#: tformmain.filesaveas1.hint
+msgid "Save As"
+msgstr ""
+
+#: tformmain.gridfunccells.caption
+msgid "Cell functions"
+msgstr ""
+
+#: tformmain.gridfunccells.hint
+msgid "Cell Functions"
+msgstr ""
+
+#: tformmain.menuitem1.caption
+msgid "&File"
+msgstr ""
+
+#: tformmain.menuitem3.caption
+msgid "S&heet"
+msgstr ""
+
+#: tformmain.toolbar1.caption
+msgid "ToolBar1"
+msgstr ""
+
+#: tformmain.toolbutton1.caption
+msgid "ToolButton1"
+msgstr ""
+
+#: tformmain.toolbutton10.caption
+msgid "ToolButton10"
+msgstr ""
+
+#: tformmain.toolbutton5.caption
+msgid "ToolButton5"
+msgstr ""
+
+#: usheettab.rssheetsismodi
+#, object-pascal-format
+msgid "\"%s\" is modified. Save this sheet?"
+msgstr ""
+

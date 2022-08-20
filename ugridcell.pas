@@ -537,6 +537,7 @@ begin
   if FDoHistory then
     FHistoryStack.PushHistory(Point(ACol,ARow),Cells[ACol,ARow]);
   inherited SetCells(ACol, ARow, AValue);
+  Invalidate;
 end;
 
 function TStrGridCell.SelectionSetTextEx(txt: string; StartCol, StartRow,

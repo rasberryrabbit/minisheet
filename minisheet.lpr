@@ -7,8 +7,8 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, lazcontrols, minisheet_main,
-  uCellFormulaPaser, uGridCell, usheetTab, uformcellfunc, frm_option;
+  Forms, lazcontrols, minisheet_main, uCellFormulaPaser, uGridCell, usheetTab,
+  uformcellfunc, frm_option, ExceptionLogger;
 
 {$R *.res}
 

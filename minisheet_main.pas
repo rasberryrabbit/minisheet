@@ -10,7 +10,7 @@ uses
   Classes, SysUtils, FileUtil, SynEdit, SynCompletion, ExtendedNotebook,
   LR_PGrid, LR_Class, LR_DSet, Forms, Controls, Graphics, Dialogs, ActnList,
   Menus, ExtCtrls, StdCtrls, Buttons, ComCtrls, Grids, StdActns, usheetTab,
-  uGridCell, types, LCLType;
+  uGridCell, UExceptionLogger, types, LCLType;
 
 type
 
@@ -35,6 +35,7 @@ type
     ActionSheetPrev: TAction;
     ActionCopyCells: TAction;
     ActionCopyCalced: TAction;
+    ExceptionLogger1: TExceptionLogger;
     FileOpen1: TFileOpen;
     frReport1: TfrReport;
     frUserDataset1: TfrUserDataset;
@@ -606,6 +607,7 @@ procedure TFormMain.FormCreate(Sender: TObject);
 var
   lng,lngf:string;
 begin
+  Application.OnException:=@ExceptionLogger1.HandleException;
   if DecimalSeparator=',' then
     CSVDelimiter:=';';
 

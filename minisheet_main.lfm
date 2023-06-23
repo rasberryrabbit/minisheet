@@ -1214,9 +1214,4 @@ object FormMain: TFormMain
     Left = 96
     Top = 208
   end
-  object ExceptionLogger1: TExceptionLogger
-    MaxCallStackDepth = 20
-    Left = 192
-    Top = 208
-  end
 end

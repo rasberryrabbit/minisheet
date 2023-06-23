@@ -35,7 +35,6 @@ type
     ActionSheetPrev: TAction;
     ActionCopyCells: TAction;
     ActionCopyCalced: TAction;
-    ExceptionLogger1: TExceptionLogger;
     FileOpen1: TFileOpen;
     frReport1: TfrReport;
     frUserDataset1: TfrUserDataset;
@@ -607,7 +606,7 @@ procedure TFormMain.FormCreate(Sender: TObject);
 var
   lng,lngf:string;
 begin
-  Application.OnException:=@ExceptionLogger1.HandleException;
+  exceptionLogger.LogFileName:='bugreport.txt';
   if DecimalSeparator=',' then
     CSVDelimiter:=';';
 

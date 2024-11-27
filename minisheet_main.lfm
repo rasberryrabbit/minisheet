@@ -8,13 +8,13 @@ object FormMain: TFormMain
   ClientHeight = 535
   ClientWidth = 736
   Menu = MainMenu1
+  Position = poDefault
+  LCLVersion = '4.99.0.0'
   OnCloseQuery = FormCloseQuery
   OnCreate = FormCreate
   OnDestroy = FormDestroy
   OnDropFiles = FormDropFiles
   OnShow = FormShow
-  Position = poDefault
-  LCLVersion = '2.3.0.0'
   object Panel1: TPanel
     Left = 0
     Height = 512
@@ -507,6 +507,8 @@ object FormMain: TFormMain
           object SynGutterMarks1: TSynGutterMarks
             Width = 24
             MouseActions = <>
+            MaxExtraMarksColums = 0
+            Options = [sgmoDeDuplicateMarksOnOverflow]
           end
           object SynGutterLineNumber1: TSynGutterLineNumber
             Width = 15
@@ -714,8 +716,8 @@ object FormMain: TFormMain
       Caption = 'Copy Cells'
       Hint = 'Copy Cells'
       ImageIndex = 3
-      OnExecute = ActionCopyCellsExecute
       ShortCut = 24643
+      OnExecute = ActionCopyCellsExecute
     end
     object ActionSheetPrev: TAction
       Category = 'Sheet'
@@ -772,25 +774,25 @@ object FormMain: TFormMain
       Caption = 'Smart Paste'
       Hint = 'Paste cells'
       ImageIndex = 5
-      OnExecute = ActionPasteCellExecute
       ShortCut = 24662
+      OnExecute = ActionPasteCellExecute
     end
     object ActionCutCells: TAction
       Category = 'Sheet'
       Caption = 'Cut Cells'
       Hint = 'Cut Cells'
       ImageIndex = 4
-      OnExecute = ActionCutCellsExecute
       ShortCut = 24664
+      OnExecute = ActionCutCellsExecute
     end
     object ActionUndelete: TAction
       Category = 'Sheet'
       Caption = 'Undelete'
       Hint = 'Revert Cells'
       ImageIndex = 6
+      ShortCut = 16474
       OnExecute = ActionUndeleteExecute
       OnUpdate = ActionUndeleteUpdate
-      ShortCut = 16474
     end
     object ActionPrintColLeft: TAction
       Category = 'File'

@@ -196,7 +196,7 @@ uses uCellFormulaPaser, fpspreadsheet, fpsallformats, uformcellfunc, DefaultTran
 
 {$R *.lfm}
 
-{$R minisheet_rep.rc}
+{$R 'minisheet_rep.rc' 'minisheet_rep.res'}
 
 resourcestring
   rsSIsEqualToDe = '"%s" is equal to DecimalSeparator';
@@ -696,6 +696,7 @@ end;
 
 procedure TFormMain.ActionRedoDeleteUpdate(Sender: TObject);
 begin
+  if Assigned(NoteSheet.ActivePage) then
   with GetGrid(NoteSheet.ActivePage) do begin
     TAction(Sender).Enabled:=(not EditorMode) and (RedoHistory.Count>0);
     //TAction(Sender).Caption:=Format('Undelete %d',[GetGrid(NoteSheet.ActivePage).EditHistory.Count]);
@@ -748,6 +749,7 @@ end;
 
 procedure TFormMain.ActionUndeleteUpdate(Sender: TObject);
 begin
+  if Assigned(NoteSheet.ActivePage) then
   with GetGrid(NoteSheet.ActivePage) do begin
     TAction(Sender).Enabled:=(not EditorMode) and (EditHistory.Count>0);
     //TAction(Sender).Caption:=Format('Undelete %d',[GetGrid(NoteSheet.ActivePage).EditHistory.Count]);
